@@ -4,10 +4,7 @@
     "features": {
         "ghcr.io/devcontainers/features/docker-in-docker": {},
         "ghcr.io/devcontainers/features/node": "lts",
-        "ghcr.io/devcontainers/features/php": "8.2",
-        //"ghcr.io/tomgrv/devcontainer-features/githooks": {},
-        //"ghcr.io/tomgrv/devcontainer-features/gitutils": {},
-        //"ghcr.io/tomgrv/devcontainer-features/gitversion": {}
+        "ghcr.io/devcontainers/features/php": "8.2"
     },
     "remoteEnv": {},
     "postCreateCommand": ".devcontainer/create.sh",
