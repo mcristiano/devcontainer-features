@@ -1,5 +1,8 @@
 {
     "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    
+    "updateRemoteUserUID": true,
+    
     "name": "",
     "features": {
         "ghcr.io/devcontainers/features/docker-in-docker": {},
