@@ -8,6 +8,9 @@
         "ghcr.io/devcontainers/features/docker-in-docker": {},
         "ghcr.io/devcontainers/features/node": "lts",
         "ghcr.io/devcontainers/features/php": "8.2",
+        
+        "ghcr.io/devcontainers/features/github-cli": {}
+        
        
     },
     "remoteEnv": {},
