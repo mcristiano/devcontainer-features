@@ -4,7 +4,16 @@
     "features": {
         "ghcr.io/devcontainers/features/docker-in-docker": {},
         "ghcr.io/devcontainers/features/node": "lts",
-        "ghcr.io/devcontainers/features/php": "8.2"
+        "ghcr.io/devcontainers/features/php": "8.2",
+
+        "ghcr.io/devcontainers/features/common-utils": {
+                "installZsh": true,
+                "installOhMyZsh": true,
+                "installStarship": true,
+                "installTmux": true,
+                "installLazygit": true
+        }
+        
     },
     "remoteEnv": {},
     "postCreateCommand": ".devcontainer/create.sh",
